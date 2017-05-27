@@ -113,7 +113,7 @@ class MyTableViewCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
-        self.buildViews()
+        self.buildView()
         
     }
     
@@ -121,7 +121,7 @@ class MyTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func buildViews(){
+    func buildView(){
         
         let button = UIButton(type: .roundedRect)
         button.addTarget(self, action: #selector(self.onPressButton(_:)), for: .touchUpInside)

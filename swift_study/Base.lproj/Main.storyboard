@@ -38,6 +38,60 @@
             </objects>
             <point key="canvasLocation" x="967" y="195"/>
         </scene>
+        <!--My Collection View Controlelr2-->
+        <scene sceneID="lsz-ci-SQ3">
+            <objects>
+                <viewController id="QIB-Vq-R36" customClass="MyCollectionViewControlelr2" customModule="swift_study" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mfR-kc-gld"/>
+                        <viewControllerLayoutGuide type="bottom" id="vwe-Tm-sSJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yLN-Q8-9Uw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KQW-20-05N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GLT-Sf-Y5y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-459" y="840"/>
+        </scene>
+        <!--My-->
+        <scene sceneID="xCB-oz-2sL">
+            <objects>
+                <collectionViewController id="GRA-83-Bdz" customClass="My" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Bmk-ou-Dou">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WXk-62-mRv">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="v8Q-RH-pc8">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="GRA-83-Bdz" id="XIV-iM-OML"/>
+                            <outlet property="delegate" destination="GRA-83-Bdz" id="fox-oS-tbB"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="6Gs-nb-VFB"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5V-kh-MRp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="979"/>
+        </scene>
         <!--My Table View Controller-->
         <scene sceneID="fNH-HS-hg0">
             <objects>
@@ -66,7 +120,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="AU3-pP-Iwb" kind="relationship" relationship="rootViewController" id="TVQ-g7-Sd4"/>
+                        <segue destination="QIB-Vq-R36" kind="relationship" relationship="rootViewController" id="Voi-44-IUQ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x37-mY-dWv" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -14,6 +14,8 @@
 		9A7F68591ED944CA000B0798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7F68571ED944CA000B0798 /* LaunchScreen.storyboard */; };
 		9A7F68611ED94A8A000B0798 /* MyTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F68601ED94A8A000B0798 /* MyTabelViewController.swift */; };
 		9A7F68631ED94CFA000B0798 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F68621ED94CFA000B0798 /* Utils.swift */; };
+		9A7F68651ED95981000B0798 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F68641ED95981000B0798 /* MyCollectionViewController.swift */; };
+		9A7F68671ED963E3000B0798 /* MyCollectionViewContoller2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F68661ED963E3000B0798 /* MyCollectionViewContoller2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9A7F685A1ED944CA000B0798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7F68601ED94A8A000B0798 /* MyTabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabelViewController.swift; sourceTree = "<group>"; };
 		9A7F68621ED94CFA000B0798 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9A7F68641ED95981000B0798 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		9A7F68661ED963E3000B0798 /* MyCollectionViewContoller2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewContoller2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				9A7F684E1ED944CA000B0798 /* AppDelegate.swift */,
 				9A7F68501ED944CA000B0798 /* ViewController.swift */,
 				9A7F68521ED944CA000B0798 /* Main.storyboard */,
+				9A7F68641ED95981000B0798 /* MyCollectionViewController.swift */,
+				9A7F68661ED963E3000B0798 /* MyCollectionViewContoller2.swift */,
 				9A7F68601ED94A8A000B0798 /* MyTabelViewController.swift */,
 				9A7F68621ED94CFA000B0798 /* Utils.swift */,
 				9A7F68551ED944CA000B0798 /* Assets.xcassets */,
@@ -146,6 +152,8 @@
 				9A7F68511ED944CA000B0798 /* ViewController.swift in Sources */,
 				9A7F684F1ED944CA000B0798 /* AppDelegate.swift in Sources */,
 				9A7F68611ED94A8A000B0798 /* MyTabelViewController.swift in Sources */,
+				9A7F68651ED95981000B0798 /* MyCollectionViewController.swift in Sources */,
+				9A7F68671ED963E3000B0798 /* MyCollectionViewContoller2.swift in Sources */,
 				9A7F68631ED94CFA000B0798 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
